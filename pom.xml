@@ -10,13 +10,13 @@
   </scm>
 	
 	<!-- Repository Information -->
-	<distributionManagement>
+	<!--<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
-			<!-- http://localhost:8081/repository/<repository-name> -->
-			<url>http://localhost:8081/repository/api-release</url>
+			<!-- http://localhost:8081/repository/<repository-name> 
+			<url>http://localhost:8081/repository/api-release</url> 
 		</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 	<profiles>
 		<profile>
 			<id>test</id>
