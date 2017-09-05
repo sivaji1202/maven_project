@@ -85,3 +85,4 @@ mvn release:clean release:prepare release:perform -DreleaseVersion=0.1 -Ddevelop
 ```
 
 Reference: http://www.baeldung.com/maven-release-nexus
+# maven_project
