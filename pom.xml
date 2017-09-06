@@ -7,7 +7,7 @@
 	<scm>
 		<url>https://github.com/borraviram/maven_project</url>
 		<connection>scm:git:https://github.com/borraviram/maven_project.git</connection>
-      <tag>v${releaseVersion}</tag>
+      <!-- <tag>v${releaseVersion}</tag> -->
   </scm>
 	
 	<!-- Repository Information -->
