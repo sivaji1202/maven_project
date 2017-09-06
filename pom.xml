@@ -5,8 +5,8 @@
 	<artifactId>maven-release-plugin-example</artifactId>
 	<version>0.2</version>
 	<scm>
-		<url>https://github.com/arpitaggarwal/maven-release-plugin-example</url>
-		<connection>scm:git:https://github.com/arpitaggarwal/maven-release-plugin-example.git</connection>
+		<url>https://github.com/borraviram/maven_project</url>
+		<connection>scm:git:https://github.com/borraviram/maven_project.git</connection>
       <tag>v${releaseVersion}</tag>
   </scm>
 	
