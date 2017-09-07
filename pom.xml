@@ -12,20 +12,21 @@
 	<!-- Repository Information -->
 
 	<build>
-	 <pluginManagement>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+    
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
-				<configuration>
-				    <tag>v${releaseVersion}</tag>
-					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<autoVersionSubmodules>true</autoVersionSubmodules>
-					<!-- releaseProfiles configuration will actually force a Maven profile 
-						– the `releases` profile – to become active during the Release process. -->
-					<releaseProfiles>releases</releaseProfiles>
-				</configuration>
 				<dependencies>
 					<dependency>
 						<groupId>org.apache.maven.plugins</groupId>
@@ -39,7 +40,6 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-		</plugins>
-		 </pluginManagement>
-	</build>
+    </plugins>
+  </build>
 </project>
